@@ -189,7 +189,7 @@ class Arguments:
         self._build_args(optionlist=ARGS_STRATEGY, parser=strategy_group)
 
         # Build main command
-        self.parser = argparse.ArgumentParser(description='Free, open source crypto trading bot')
+        self.parser = argparse.ArgumentParser(description='Free, open source crypto trading bot2')
         self._build_args(optionlist=['version'], parser=self.parser)
 
         from freqtrade.commands import (start_analysis_entries_exits, start_backtesting,
